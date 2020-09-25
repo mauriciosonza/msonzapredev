@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Login</h1>
+
+<form id="form" action="" method="POST" enctype="multipart/form-data">
+    {{form.hidden_tag()}}
+    <label>{{form.username.label}}</label>
+    {{form.username}}
+    <label>{{form.password.label}}</label>
+    {{form.password}}
+    <div align="center">
+        {{form.submit}}
+    </div>
+
+</body>
+</html>
